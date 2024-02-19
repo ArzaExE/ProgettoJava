@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"PratoFioritoGame","l":"Player"},{"p":"PratoFioritoGame","l":"Program"},{"p":"PratoFioritoGame","l":"Sound"},{"p":"PratoFioritoGame","l":"Table"}];updateSearchResults();

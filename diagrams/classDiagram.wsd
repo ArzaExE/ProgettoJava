@@ -1,0 +1,41 @@
+@startuml
+
+public class Table{
+    - row: int              
+    - column: int           
+    - dimension: int        
+    - table: String[][]     
+    - flowers: String[][]   
+    - number_flowers: int   
+    + getRow(): int         
+    + setRow(row: int): void
+    + getColumn(): int      
+    + setColumn(col: int): void
+    + getDimension(): int   
+    + setDimension(dim: int): void
+    + Table(dim: int)       
+    + createTable(): void   
+    + generateFlowers(num: int): void
+    + checkFlowers(row: int, col: int): boolean
+    + checkScore(row: int, col: int): boolean
+    + setDifficulty(diff: String, dim: int): int
+    + toString(): String 
+}          
+
+public class Player{
+    - name: String          
+    - score: int            
+    + getName(): String     
+    + setName(name: String): void
+    + getScore(): int       
+    + setScore(score: int): void
+    + Player(name: String)  
+    + addScore(): void      
+    + winGame(dim: int): boolean
+}
+
+public class Sound{
+    + play(fileName: String): void
+}
+
+@enduml
